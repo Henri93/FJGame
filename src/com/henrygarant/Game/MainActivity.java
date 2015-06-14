@@ -18,7 +18,7 @@ public class MainActivity {
 		Styler styler = new Styler();
 		Root root = new Root();
 		
-		root.test();
+		///root.test();
 		/*introduction(styler, root);				
 		Player player = new Player(userInput.next());
 		userInput.close();
