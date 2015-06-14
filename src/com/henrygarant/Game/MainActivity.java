@@ -1,10 +1,10 @@
 package com.henrygarant.Game;
 
-import static java.lang.System.out;
+import com.henrygarant.GameLogic.Root;
 
 import java.util.Scanner;
 
-import com.henrygarant.GameLogic.Root;
+import static java.lang.System.out;
 
 public class MainActivity {
 		
@@ -17,8 +17,8 @@ public class MainActivity {
 		Scanner userInput = new Scanner(System.in);
 		Styler styler = new Styler();
 		Root root = new Root();
-		
-		///root.test();
+
+		root.test();
 		/*introduction(styler, root);				
 		Player player = new Player(userInput.next());
 		userInput.close();
